@@ -1,68 +1,72 @@
-🛍️ RetailIQ — AI-Powered Retail Platform (Currently In Development)
+🛍️ RetailIQ — AI-Powered Retail Platform
+(Currently In Active Development)
 
-RetailIQ is an AI-driven retail system designed to help sellers manage carts, customers, authentication, and future analytics.
-Both the frontend (Next.js) and backend (Node.js + Firebase) are fully structured and functional.
+RetailIQ is an AI-driven retail management system built to streamline seller operations — from authentication to cart management — and soon full dashboards, analytics, and order flows.
+This project uses a Next.js frontend and a Node.js + Firebase backend, organized in a clean monorepo structure.
 
-✅ Current Progress (Completed)
+🚀 Current Progress
 Frontend
 
-✔️ Homepage UI
+✔️ Home Page
+
 ✔️ Login Page
+
 ✔️ Signup Page
-✔️ Cart Page (working QR flow base)
-✔️ Routing + basic auth state
+
+✔️ Cart Page (QR flow base)
+
+✔️ Auth routing + basic state
 
 Backend
 
-✔️ Firebase Admin setup
-✔️ Login / Signup endpoints
-✔️ Cart management endpoints
+✔️ Firebase Admin configuration
+
+✔️ Login / Signup APIs
+
+✔️ Cart APIs
+
 ✔️ QR scanning API base
 
 📁 Project Structure
 RetailIQ/
-│── retailiqfrontend/     # Next.js 14 frontend
-│── retailiqbackend/      # Node.js backend
+│── retailiqfrontend/        # Next.js 14 frontend
+│── retailiqbackend/         # Node.js backend
+│── assets/                  # App screenshots
 │── .gitignore
 │── README.md
 
-🖼️ Screenshots (Add Images Here)
-
-Upload screenshots to GitHub Issues → copy the URLs → paste them below.
-
+🖼️ Screenshots
 🏠 Home Page
 <img src="./assets/Home.jpg" width="700"/>
 🔐 Login Page
 <img src="./assets/login.jpg" width="700"/>
 🆕 Signup Page
 <img src="./assets/signup.jpg" width="700"/>
-🛒 Dashboard Page
+📊 Dashboard Page
 <img src="./assets/dashboard.jpg" width="700"/>
 🚧 In Progress
 
 Seller Dashboard
 
-Product Listing Page
+Product Listing / Inventory Flow
 
-Inventory Flow
+Advanced Analytics
 
-Analytics
-
-Final QR order journey
+Final QR → Cart → Order journey
 
 Deployment
 
-🛠️ Local Setup Instructions
-1️⃣ Clone repo
+🛠️ Local Setup
+1️⃣ Clone the repo
 git clone https://github.com/RohitKamble171012/RetailIQ.git
 cd RetailIQ
 
-2️⃣ Start frontend
+2️⃣ Start the frontend
 cd retailiqfrontend
 npm install
 npm run dev
 
-3️⃣ Start backend
+3️⃣ Start the backend
 cd retailiqbackend
 npm install
 npm start
@@ -88,14 +92,18 @@ Firebase Admin SDK
 
 Firestore
 
-📌 Next Features
+📌 Upcoming Features
 
-Full dashboard UI
+Full Seller Dashboard
 
-Seller roles & access
+Role-based Access (Admin/Seller)
 
-Customer order history
+Order History + Customer Tracking
 
-Payment integration
+Payments Integration
 
-Deployment to Vercel (frontend) + Render/Firebase (backend)
+Deployment
+
+Frontend → Vercel
+
+Backend → Firebase/Render
