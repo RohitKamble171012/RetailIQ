@@ -1,0 +1,9 @@
+firebaseServiceAccountkey.json
+*.json
+node_modules/
+.next/
+dist/
+out/
+build/
+.env
+.env.*
