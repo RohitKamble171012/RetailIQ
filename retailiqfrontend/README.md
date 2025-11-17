@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🛍️ RetailIQ — AI-Powered Retail Platform (Currently In Development)
 
-## Getting Started
+RetailIQ is an AI-driven retail system designed to help sellers manage carts, customers, authentication, and future analytics.
+Both the frontend (Next.js) and backend (Node.js + Firebase) are fully structured and functional.
 
-First, run the development server:
+✅ Current Progress (Completed)
+Frontend
 
-```bash
+✔️ Homepage UI
+✔️ Login Page
+✔️ Signup Page
+✔️ Cart Page (working QR flow base)
+✔️ Routing + basic auth state
+
+Backend
+
+✔️ Firebase Admin setup
+✔️ Login / Signup endpoints
+✔️ Cart management endpoints
+✔️ QR scanning API base
+
+📁 Project Structure
+RetailIQ/
+│── retailiqfrontend/     # Next.js 14 frontend
+│── retailiqbackend/      # Node.js backend
+│── .gitignore
+│── README.md
+
+🖼️ Screenshots (Add Images Here)
+
+Upload screenshots to GitHub Issues → copy the URLs → paste them below.
+
+🏠 Home Page
+<img src="" width="700"/>
+🔐 Login Page
+<img src="PUT_LOGIN_PAGE_IMAGE_LINK_HERE" width="700"/>
+🆕 Signup Page
+<img src="PUT_SIGNUP_PAGE_IMAGE_LINK_HERE" width="700"/>
+🛒 Cart Page
+<img src="PUT_CART_PAGE_IMAGE_LINK_HERE" width="700"/>
+🚧 In Progress
+
+Seller Dashboard
+
+Product Listing Page
+
+Inventory Flow
+
+Analytics
+
+Final QR order journey
+
+Deployment
+
+🛠️ Local Setup Instructions
+1️⃣ Clone repo
+git clone https://github.com/RohitKamble171012/RetailIQ.git
+cd RetailIQ
+
+2️⃣ Start frontend
+cd retailiqfrontend
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3️⃣ Start backend
+cd retailiqbackend
+npm install
+npm start
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔧 Tech Stack
+Frontend
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Next.js 14
 
-## Learn More
+React
 
-To learn more about Next.js, take a look at the following resources:
+TailwindCSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ShadCN UI
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Backend
 
-## Deploy on Vercel
+Node.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Express
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Firebase Admin SDK
+
+Firestore
+
+📌 Next Features
+
+Full dashboard UI
+
+Seller roles & access
+
+Customer order history
+
+Payment integration
+
+Deployment to Vercel (frontend) + Render/Firebase (backend)
