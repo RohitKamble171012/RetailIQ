@@ -1,109 +1,15 @@
-🛍️ RetailIQ — AI-Powered Retail Platform
-(Currently In Active Development)
-
-RetailIQ is an AI-driven retail management system built to streamline seller operations — from authentication to cart management — and soon full dashboards, analytics, and order flows.
-This project uses a Next.js frontend and a Node.js + Firebase backend, organized in a clean monorepo structure.
-
-🚀 Current Progress
-Frontend
-
-✔️ Home Page
-
-✔️ Login Page
-
-✔️ Signup Page
-
-✔️ Cart Page (QR flow base)
-
-✔️ Auth routing + basic state
-
-Backend
-
-✔️ Firebase Admin configuration
-
-✔️ Login / Signup APIs
-
-✔️ Cart APIs
-
-✔️ QR scanning API base
-
-📁 Project Structure
-RetailIQ/
-│── retailiqfrontend/        # Next.js 14 frontend
-│── retailiqbackend/         # Node.js backend
-│── assets/                  # App screenshots
-│── .gitignore
-│── README.md
-
-🖼️ Screenshots
-🏠 Home Page
-<img src="./assets/Home.jpg" width="700"/>
-🔐 Login Page
-<img src="./assets/login.jpg" width="700"/>
-🆕 Signup Page
-<img src="./assets/signup.jpg" width="700"/>
-📊 Dashboard Page
-<img src="./assets/dashboard.jpg" width="700"/>
-🚧 In Progress
-
-Seller Dashboard
-
-Product Listing / Inventory Flow
-
-Advanced Analytics
-
-Final QR → Cart → Order journey
-
-Deployment
-
-🛠️ Local Setup
-1️⃣ Clone the repo
-git clone https://github.com/RohitKamble171012/RetailIQ.git
+RetailIQ — AI-Powered Retail Platform(Currently In Active Development)RetailIQ is an AI-driven retail management system designed to revolutionize seller operations. Our platform currently streamlines core flows—from authentication to cart management—with a future roadmap focused on delivering comprehensive dashboards, advanced analytics, and seamless order fulfillment.This project is built using a modern stack: a Next.js 14 frontend and a Node.js + Firebase backend, all housed within a clean monorepo structure for efficient development.Current Progress & FeaturesWe've established a solid foundation for the platform. Here is a summary of our completed modules:Frontend (Next.js)StatusFeatureCompletedHome PageCompletedLogin PageCompletedSignup PageCompletedCart Page (QR flow base)CompletedAuth routing + Basic State ManagementBackend (Node.js + Firebase)StatusFeatureCompletedFirebase Admin ConfigurationCompletedLogin / Signup APIsCompletedCart APIsCompletedQR Scanning API BaseIn Progress & RoadmapWe are actively working on the following key areas to bring the full vision of RetailIQ to life:AreaFeaturesCore FlowFull Seller Dashboard, Product Listing / Inventory Flow, Final QR → Cart → Order JourneyAdvancedAdvanced Analytics, Role-based Access (Admin/Seller), Order History + Customer Tracking, Payments IntegrationDeploymentFrontend (Vercel) and Backend (Firebase/Render) DeploymentTech StackRetailIQ is built with robust and scalable technologies:FrontendNext.js 14ReactTailwindCSSShadCN UIBackendNode.jsExpressFirebase Admin SDKFirestore (Database)Project StructureThe monorepo organizes the different parts of the application cleanly:RetailIQ/
+├── retailiqfrontend/       # Next.js 14 frontend application
+├── retailiqbackend/        # Node.js + Express backend server
+├── assets/                 # App screenshots and media
+├── .gitignore
+├── README.md
+Local SetupFollow these simple steps to get RetailIQ running on your local machine:1. Clone the repositoryBashgit clone https://github.com/RohitKamble171012/RetailIQ.git
 cd RetailIQ
-
-2️⃣ Start the frontend
-cd retailiqfrontend
+2. Start the FrontendBashcd retailiqfrontend
 npm install
 npm run dev
-
-3️⃣ Start the backend
-cd retailiqbackend
+3. Start the BackendBashcd retailiqbackend
 npm install
 npm start
-
-🔧 Tech Stack
-Frontend
-
-Next.js 14
-
-React
-
-TailwindCSS
-
-ShadCN UI
-
-Backend
-
-Node.js
-
-Express
-
-Firebase Admin SDK
-
-Firestore
-
-📌 Upcoming Features
-
-Full Seller Dashboard
-
-Role-based Access (Admin/Seller)
-
-Order History + Customer Tracking
-
-Payments Integration
-
-Deployment
-
-Frontend → Vercel
-
-Backend → Firebase/Render
+ScreenshotsSee what we've built so far!Home Page<img src="./assets/Home.jpg" width="700" alt="Screenshot of the RetailIQ Home Page"/>Login Page<img src="./assets/login.jpg" width="700" alt="Screenshot of the RetailIQ Login Page"/>Signup Page<img src="./assets/signup.jpg" width="700" alt="Screenshot of the RetailIQ Signup Page"/>Dashboard Page<img src="./assets/dashboard.jpg" width="700" alt="Screenshot of the RetailIQ Dashboard Page"/>
