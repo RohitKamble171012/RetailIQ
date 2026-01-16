@@ -65,7 +65,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-slate-900 via-black to-slate-900 shadow-lg">
+    <nav className="bg-gradient-to-r from-slate-900 via-black to-slate-900 shadow-lg fixed w-full z-50">
       <div className="max-w-7x2 mx-auto px-6 py-4 flex justify-between items-center">
         {/* LOGO */}
         <Link href="/" className="flex items-center gap-2 group">
